@@ -66,6 +66,7 @@ export const createJob = asyncHanlder(async (req, res) => {
   }
 });
 
+//get all jobs
 export const getJobs = asyncHanlder(async (req, res) => {
   try {
     //getting for the cretor of the job  his id , name and profile picture
